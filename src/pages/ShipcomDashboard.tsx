@@ -1,7 +1,7 @@
 import Container from "@mui/material/Container";
 import React, { useEffect } from "react";
-import MapComponent from "../component/MapComponent";
-import SideBar from "../navigation/SideBar";
+import { MapComponent } from "../components/Map/MapComponent";
+import { SideBar } from "../navigation/SideBar/SideBar";
 
 const ShipcomDashboard = (props: { renderComponent: string }) => {
   const [label, setLabel] = React.useState("Home");
