@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["react/jsx-runtime"]
+    "types": ["react/jsx-runtime", "node"]
   },
   "include": ["src"]
-} 
+}
