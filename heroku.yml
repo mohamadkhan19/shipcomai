@@ -1,0 +1,6 @@
+build:
+  docker:
+    web: Dockerfile
+  config:
+    BABEL_ENV: production
+    NODE_ENV: production
